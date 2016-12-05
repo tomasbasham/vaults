@@ -10,6 +10,13 @@
 		035400641DF5EE0100E3915C /* Vaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0354005A1DF5EE0100E3915C /* Vaults.framework */; };
 		035400691DF5EE0100E3915C /* VaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035400681DF5EE0100E3915C /* VaultsTests.swift */; };
 		0354006B1DF5EE0100E3915C /* Vaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 0354005D1DF5EE0100E3915C /* Vaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0354007F1DF5F6A900E3915C /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035400741DF5F6A900E3915C /* Adapter.swift */; };
+		035400821DF5F6A900E3915C /* KeyedArchiveAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035400771DF5F6A900E3915C /* KeyedArchiveAdapter.swift */; };
+		035400831DF5F6A900E3915C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035400781DF5F6A900E3915C /* Model.swift */; };
+		035400841DF5F6A900E3915C /* MutableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035400791DF5F6A900E3915C /* MutableModel.swift */; };
+		035400851DF5F6A900E3915C /* RESTAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354007A1DF5F6A900E3915C /* RESTAdapter.swift */; };
+		035400861DF5F6A900E3915C /* SaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354007B1DF5F6A900E3915C /* SaveRequest.swift */; };
+		035400881DF5F6A900E3915C /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354007D1DF5F6A900E3915C /* Vault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		035400631DF5EE0100E3915C /* VaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035400681DF5EE0100E3915C /* VaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultsTests.swift; sourceTree = "<group>"; };
 		0354006A1DF5EE0100E3915C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035400741DF5F6A900E3915C /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		035400771DF5F6A900E3915C /* KeyedArchiveAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedArchiveAdapter.swift; sourceTree = "<group>"; };
+		035400781DF5F6A900E3915C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		035400791DF5F6A900E3915C /* MutableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableModel.swift; sourceTree = "<group>"; };
+		0354007A1DF5F6A900E3915C /* RESTAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTAdapter.swift; sourceTree = "<group>"; };
+		0354007B1DF5F6A900E3915C /* SaveRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveRequest.swift; sourceTree = "<group>"; };
+		0354007D1DF5F6A900E3915C /* Vault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				0354005D1DF5EE0100E3915C /* Vaults.h */,
+				035400741DF5F6A900E3915C /* Adapter.swift */,
+				035400771DF5F6A900E3915C /* KeyedArchiveAdapter.swift */,
+				035400781DF5F6A900E3915C /* Model.swift */,
+				035400791DF5F6A900E3915C /* MutableModel.swift */,
+				0354007A1DF5F6A900E3915C /* RESTAdapter.swift */,
+				0354007B1DF5F6A900E3915C /* SaveRequest.swift */,
+				0354007D1DF5F6A900E3915C /* Vault.swift */,
 				0354005E1DF5EE0100E3915C /* Info.plist */,
 			);
 			path = Vaults;
@@ -149,6 +170,7 @@
 					035400591DF5EE0100E3915C = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 37LX7X2USX;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					035400621DF5EE0100E3915C = {
@@ -198,6 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035400831DF5F6A900E3915C /* Model.swift in Sources */,
+				035400851DF5F6A900E3915C /* RESTAdapter.swift in Sources */,
+				035400881DF5F6A900E3915C /* Vault.swift in Sources */,
+				035400821DF5F6A900E3915C /* KeyedArchiveAdapter.swift in Sources */,
+				035400861DF5F6A900E3915C /* SaveRequest.swift in Sources */,
+				0354007F1DF5F6A900E3915C /* Adapter.swift in Sources */,
+				035400841DF5F6A900E3915C /* MutableModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +351,7 @@
 		0354006F1DF5EE0100E3915C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37LX7X2USX;
@@ -334,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomasbasham.Vaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +372,7 @@
 		035400701DF5EE0100E3915C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37LX7X2USX;
@@ -360,6 +392,7 @@
 		035400721DF5EE0100E3915C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37LX7X2USX;
 				INFOPLIST_FILE = VaultsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +405,7 @@
 		035400731DF5EE0100E3915C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37LX7X2USX;
 				INFOPLIST_FILE = VaultsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +434,7 @@
 				035400701DF5EE0100E3915C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035400711DF5EE0100E3915C /* Build configuration list for PBXNativeTarget "VaultsTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +443,7 @@
 				035400731DF5EE0100E3915C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
